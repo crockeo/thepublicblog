@@ -1,0 +1,21 @@
+%html
+  %head
+    %link{'rel' => 'stylesheet', 'href' => '/css/MainStyle.css'}
+
+  %body
+    #titlebar
+      %a.titlebartext{'href' => '/'} The Public Blog
+      %a.titlebartext{'href' => '/addpost'} New Post
+
+    #bodycontainer
+      %form{'action' => '/', 'method' => 'post'}
+        %input{'type' => 'text', 'placeholder' => 'Title (Required)', 'name' => 'title', 'required' => ''}
+        %input{'type' => 'text', 'placeholder' => 'Author', 'name' => 'author'}
+
+        %br
+
+        %textarea{'placeholder' => 'Body (Required)', 'name' => 'body', 'required' => '', 'rows' => '32', 'cols' => '80'}
+
+        %br
+
+        %input{'type' => 'submit'}

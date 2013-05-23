@@ -1,0 +1,17 @@
+%html{'ng-app' => ''}
+  %head
+    %script{'src' => 'https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js'}
+    %script{'src' => '/js/IndexController.js'}
+
+    %link{'rel' => 'stylesheet', 'href' => '/css/MainStyle.css'}
+
+  %body
+    #titlebar
+      %a.titlebartext{'href' => '/'} The Public Blog
+      %a.titlebartext{'href' => '/addpost'} New Post
+
+    #bodycontainer{'ng-controller' => 'IndexController'}
+      #postcontainer{'ng-repeat' => 'element in elements'}
+        %h2{'ng-bind' => 'element["title"]'}
+        %p{'ng-bind' => '"By " + element["author"]'}
+        %p{'ng-bind' => 'element["body"]'}

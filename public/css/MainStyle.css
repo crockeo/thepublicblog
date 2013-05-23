@@ -1,0 +1,42 @@
+/* Element Styling */
+body {
+  font-family:arial;
+  font-size:18px;
+  background:#fefefe;
+  color:#333;
+
+  margin:0px;
+  padding:0px;
+}
+
+/* Class Styling */
+.titlebartext {
+  text-shadow:0px 0px 8px #333;
+  font-size:24px;
+  color:#fff;
+
+  margin:0px;
+  padding:5px;
+}
+
+/* ID Styling */
+#titlebar {
+  background:#bf1942;
+  padding:10px;
+}
+
+#bodycontainer {
+  box-shadow:0px 0px 500px #333;
+  text-align:center;
+  width:90%;
+  height:100%;
+  margin:0px auto 0px auto;
+  padding:10px;
+}
+
+#postcontainer {
+  width:85%;
+  margin:0px auto 0px auto;
+  padding:5px;
+  box-shadow:0px 2.5px 0px #666, 0px -2.5px 0px #666;
+}
