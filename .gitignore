@@ -1,0 +1,3 @@
+# Disabling all forms of compiled nonsense
+*.o
+*.exe
