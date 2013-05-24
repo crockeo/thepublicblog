@@ -3,6 +3,7 @@ body {
   font-family:arial;
   font-size:18px;
   background:#fefefe;
+  background:#f5dae1;
   color:#333;
 
   margin:0px;
@@ -26,7 +27,8 @@ body {
 }
 
 #bodycontainer {
-  box-shadow:0px 0px 500px #333;
+  background:#fff;
+  box-shadow:0px 0px 50px #cc4768;
   text-align:center;
   width:90%;
   height:100%;
@@ -38,5 +40,5 @@ body {
   width:85%;
   margin:0px auto 0px auto;
   padding:5px;
-  box-shadow:0px 2.5px 0px #666, 0px -2.5px 0px #666;
+  box-shadow:0px 2.5px 0px #86122e, 0px -2.5px 0px #86122e;
 }

@@ -20,7 +20,6 @@ db_init
 get('/') { haml :index }
 get('/index') { haml :index }
 get('/addpost') { haml :addpost }
-get('/favicon.ico') { '' }
 
 ####
 # POST requests
