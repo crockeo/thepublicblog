@@ -8,7 +8,7 @@ require 'haml'
 # Configuration
 config = {
   bind: '127.0.0.1',
-  port: 80
+  port: 8000
 }
 
 config.each { |k, v| set(k, v) }
