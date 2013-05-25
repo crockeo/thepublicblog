@@ -13,7 +13,8 @@ body {
 /* Class Styling */
 .titlebartext {
   text-shadow:0px 0px 8px #333;
-  font-size:24px;
+  text-decoration:none;
+  font-size:36px;
   color:#fff;
 
   margin:0px;
@@ -22,6 +23,7 @@ body {
 
 /* ID Styling */
 #titlebar {
+  text-align:center;
   background:#bf1942;
   padding:10px;
 }
